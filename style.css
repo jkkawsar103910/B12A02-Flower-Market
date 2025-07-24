@@ -130,6 +130,10 @@ button{
     
 }
 
+.plant-lover ul li{
+    color: #8987A1;
+}
+
 
 /* media section  */
 
@@ -192,6 +196,33 @@ button{
 
 .card img{
     max-width: 12rem;
+}
+
+.trust{
+    display: none;
+}
+.lover{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.flower-store{
+    max-width: 90%;
+    margin-top: -100px;
+    margin-left: 19px;
+}
+
+.plant-lover{
+    max-width: 100%;
+    margin-left: px;
+    font-size: 20px;
+}
+.plant-lover ul li{
+    color: #8987A1;
+}
+
+.plant-lover h1{
+    width: 100%;
 }
 
 }
