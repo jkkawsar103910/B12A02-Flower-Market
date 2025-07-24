@@ -20,7 +20,7 @@
 .logo{
     width: 5rem;
 }
-
+  
 .nav{
     display: flex;
 
@@ -51,10 +51,9 @@ p{
 
 .flower-text{
     width: 50%;
-    margin-top: 8rem;
+    margin-top: 9rem;
 }
 .flower-text h1{
-    /* font-weight: bold; */
     font-size: 3rem;
 }
 .hero-flower img{
@@ -63,11 +62,21 @@ p{
 }
 
 
+
+/* media section  */
+
+
+
 @media screen and (max-width:576px){
     .nav-link{
         display: none;
         
-        
+    }
+    .nav-item{
+        margin-left: 10px;
+    }
+    .container{
+        margin-left: 45px;
     }
     .hero-flower img{
     max-width: 25.5rem;
