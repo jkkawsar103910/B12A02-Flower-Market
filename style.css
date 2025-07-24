@@ -51,7 +51,7 @@ p{
 
 .flower-text{
     width: 60%;
-    margin-top: 6rem;
+    margin-top: 4.7rem;
 }
 .flower-text h1{
     font-size: 3rem;
@@ -89,10 +89,15 @@ p{
 
 
 .flower-text{
-    font-size: 40pxx;
+    font-size: px;
     margin-top: -25px;
-    width: 100%;
+    width: 98%;
+    text-align: justify;
     margin-left: 20px;
+}
+ .flower-text h1{
+    font-size: 2rem;
+    margin-top: 50px;
 }
     
     .flower-container{
