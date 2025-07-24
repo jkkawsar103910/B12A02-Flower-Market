@@ -73,13 +73,16 @@ p{
         
     }
     .nav-item{
-        margin-left: 10px;
+        margin-left: 13px;
+        display: flex;
     }
     .container{
         margin-left: 45px;
+        width: 90%;
     }
     .hero-flower img{
     max-width: 25.5rem;
+    
     
     
 }
