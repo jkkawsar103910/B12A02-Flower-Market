@@ -19,6 +19,7 @@
 
 .logo{
     width: 5rem;
+    cursor: pointer;
 }
   
 .nav{
@@ -28,8 +29,16 @@
 .nav-item{
     list-style: none;
     margin-right: 30px;
+    cursor: pointer;
     
 
+}
+
+.nav-link:hover{
+    background-color: rgb(13, 13, 13);
+    color: rgb(252, 250, 250);
+    border-radius: 13px;
+    padding: 15px;
 }
 .nav-link{
     text-decoration: none;
@@ -61,6 +70,65 @@ p{
     
 }
 
+/* card section  */
+
+.head{
+    text-align: center;
+}
+.head h1 {
+    font-size: 3rem;
+    margin-bottom: -15px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+}
+
+.card-container,h1,h2{
+    text-align: center;
+}
+
+button{
+    background-color: #E95A08;
+    padding: 10px;
+    color: white;
+    width: 95%;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.lover{
+    display: flex;
+    margin-top: 120px;
+}
+
+.trust{
+    width: 200px;
+    margin-left: -130px;
+    margin-top: -20px;
+    
+    
+}
+
+.flower-store{
+   margin-top: 60px;
+     max-width: 100%;
+}
+
+.plant-lover{
+    max-width: 50%;
+    font-size: 1.4rem;
+    margin-left: 30px;
+    margin-top: 65px;
+    
+}
+
+.plant-lover h1{
+    margin-right: 300px;
+    
+}
 
 
 /* media section  */
@@ -81,10 +149,7 @@ p{
         width: 90%;
     }
     .hero-flower img{
-    max-width: 25.5rem;
-    
-    
-    
+    max-width: 25.5rem;   
 }
 
 
@@ -111,4 +176,22 @@ p{
         justify-content: center;
         
     }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2,4fr);
+    }
+
+    .head,our,plants{
+        margin-left: 50px;
+    }
+
+.card{
+    max-width: 12rem;
+    margin-left: 10px;
+}
+
+.card img{
+    max-width: 12rem;
+}
+
 }
