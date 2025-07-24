@@ -262,7 +262,9 @@ p{
     padding: 15px;
 }
 
-
+.footer-last{
+    display: flex;
+}
 
 
 
@@ -428,9 +430,19 @@ p{
 .subscribe button{
     
 }
-.footer-logo{
-  flex-direction: column;
+.footer-last{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 0rem;
     
+}
+
+.foot ul li{
+    width: 160px;
+}
+
+.icon{
+    display: flex;
 }
 
 }
