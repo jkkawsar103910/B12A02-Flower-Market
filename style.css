@@ -52,6 +52,7 @@ span{
 }
 p{
     color: #8987A1;
+    font-size: auto;
 }
 .flower-container{
     display: flex;
@@ -137,6 +138,7 @@ p{
 
 .plant-lover ul li{
     color: #8987A1;
+    font-size: 20px;
 }
 
 .latest{
@@ -175,6 +177,13 @@ p{
     margin-left: 10px;
     
 }
+.full-photo{
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 50px;
+    margin-top: 35px;
+}
+
 
 
 * {
@@ -226,8 +235,32 @@ p{
     margin-left: -11.9rem;
 }
 
+.footer-logo{
+    width: 40%;
+    font-size: 20px;
+}
+.foot ul li{
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
+    color: #8987A1;
+    font-size: 15px;
+    
+    
+}
+.foot{
+    width: 20%;
+}
 
+.icon{
+    margin-left: 40px;
+    width: 30%;
 
+}
+
+.icon img{
+    padding: 15px;
+}
 
 
 
@@ -248,11 +281,11 @@ p{
         
     }
     .nav-item{
-        margin-left: 13px;
+        margin-left: 25px;
         display: flex;
     }
     .container{
-        margin-left: 45px;
+        /* margin-left: 45px; */
         width: 90%;
     }
     .hero-flower img{
@@ -261,7 +294,8 @@ p{
 
 
 .noto-serif-normal{
-    margin-left: 12px;
+    margin-left: 38px;
+    max-width: 393x;
 }
 
 .flower-text{
@@ -336,5 +370,67 @@ p{
     margin: 0 auto;
 }
 
+.multi-pic{
+    display: grid;
+    grid-template-rows: 1fr;
+    /* margin-left: 30px; */
+    width: 470px;
+    margin-left: -25px;
+}
+.bloom-pic{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.test{
+    border-radius: 0px;
+}
+
+.bloom-text{
+    margin-top: 120px;
+    margin-left: 100px;
+    font-size: 25px;
+    
+}
+
+
+.full-pic{
+    width: 100%;
+    margin-left: -2px;
+    margin-top: 20px;
+}
+
+.full-photo{
+    font-size: 23px;
+    margin-top: -10px;
+    margin-left: -10px;
+    font-weight: bolder;
+}
+
+
+
+.background{
+    width: 30rem;
+}
+.bunch{
+    font-size: 30px;
+    margin-top: 48px;
+    margin-left: 0px;
+    width: 390px;
+
+}
+.subscribe{
+    /* width: 200px; */
+    margin-left: 4rem;
+    margin-top: 7rem;
+    width: 50%;
+}
+.subscribe button{
+    
+}
+.footer-logo{
+  flex-direction: column;
+    
+}
 
 }
