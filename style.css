@@ -1,14 +1,15 @@
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+
+.noto-serif-normal{
+  font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: 400px;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+
     max-width: 1140px;
     margin: 0 auto;
 }
-
 
 .container{
     display: flex;
@@ -88,7 +89,7 @@ p{
     text-align: center;
 }
 
-button{
+.add{
     background-color: #E95A08;
     padding: 10px;
     color: white;
@@ -125,6 +126,10 @@ button{
     
 }
 
+.plants{
+    font-size: 50px;
+}
+
 .plant-lover h1{
     margin-right: 300px;
     
@@ -133,6 +138,104 @@ button{
 .plant-lover ul li{
     color: #8987A1;
 }
+
+.latest{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.bloom{
+    margin-top: 60px;
+}
+.bloom-text{
+    position: absolute;
+    margin-top: 100px;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 80px;
+    z-index: 1;
+}
+
+.all-pic{
+    margin-top: 80px;
+}
+.bloom-pic{
+    filter: brightness(60%);
+    border-radius: 15px;
+    margin-top: 10px;
+    
+}
+.multi-pic{
+    display: flex;
+}
+
+.full-pic{
+    margin-top: 80px;
+    margin-left: 10px;
+    
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.subscribe input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.subscribe button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #E95A08;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.subscribe button:hover {
+  background: #0b7dda;
+}
+
+
+.bunch{
+    position: absolute;
+    margin-left: 20rem;
+    font-size: 3rem;
+    margin-top: 10rem;
+    color: white;
+}
+.subscribe{
+    position: absolute;
+    width: 50%;
+    margin-left: 13rem;
+    margin-top: 16rem;
+}
+
+.background img{
+    width: 133%;
+    margin-left: -11.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* media section  */
@@ -156,6 +259,10 @@ button{
     max-width: 25.5rem;   
 }
 
+
+.noto-serif-normal{
+    margin-left: 12px;
+}
 
 .flower-text{
     font-size: px;
@@ -186,7 +293,7 @@ button{
     }
 
     .head,our,plants{
-        margin-left: 50px;
+        margin-left: 20px;
     }
 
 .card{
@@ -207,22 +314,27 @@ button{
 }
 
 .flower-store{
-    max-width: 90%;
+    max-width: 85%;
     margin-top: -100px;
-    margin-left: 19px;
+    margin-left: 23px;
 }
 
 .plant-lover{
     max-width: 100%;
-    margin-left: px;
-    font-size: 20px;
-}
-.plant-lover ul li{
-    color: #8987A1;
+ 
 }
 
-.plant-lover h1{
-    width: 100%;
+
+.plant-lover ul li{
+    color: #8987A1;
+    width: 90%;
 }
+
+
+.flowers-title{
+    width: 90%;
+    margin: 0 auto;
+}
+
 
 }
