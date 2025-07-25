@@ -287,7 +287,6 @@ p{
         display: flex;
     }
     .container{
-        /* margin-left: 45px; */
         width: 90%;
     }
     .hero-flower img{
@@ -297,7 +296,7 @@ p{
 
 .noto-serif-normal{
     margin-left: 38px;
-    max-width: 393x;
+    max-width: 393px;
 }
 
 .flower-text{
